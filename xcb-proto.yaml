@@ -1,0 +1,23 @@
+Name: xcb-proto
+Summary: XCB protocol descriptions
+Description: |
+    xcb-proto provides the XML-XCB protocol descriptions that libxcb uses to
+    generate the majority of its code and API.
+Version: 1.6
+Release: 0
+Group: Development/Libraries
+License: MIT
+URL: http://xcb.freedesktop.org/
+Sources:
+    - http://xcb.freedesktop.org/dist/%{name}-%{version}.tar.bz2
+#Patches:
+#    - 0001-updates-to-master.diff
+RpmLintIgnore:
+    - "xcb-proto.* devel-file-in-non-devel-package"
+Requires:
+    - pkgconfig
+PkgBR:
+    - python-devel
+Configure: configure
+ConfigOptions:
+    - --libdir=%{_datadir}
