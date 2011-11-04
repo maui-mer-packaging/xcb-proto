@@ -1,9 +1,0 @@
-<package project="Mer:Trunk:Base" name="xcb-proto">
-  <title>XCB protocol descriptions</title>
-  <description>Description: %{summary}
-
-
-
-</description>
-  <url>http://xcb.freedesktop.org/</url>
-</package>
