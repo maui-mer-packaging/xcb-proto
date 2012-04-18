@@ -1,5 +1,9 @@
-* Wed Jul 06 2011 Liu, Xinyun <xinyun.liu@intel.com> - 1.6
-- Updated to git a068a20c8 (June 11) 
+* Tue Sep 04 2012 Marko Saukko <marko.saukko@jollamobile.com> - 1.7.1
+- Update to version 1.7.1
+- YAML-ify (by Carsten)
+
+* Sat Mar 17 2012 Johan Thelin <johan.thelin@pelagicore.com> - 1.7
+- Upgraded to version 1.7
 
 * Sat Apr 10 2010 Anas Nashif <anas.nashif@intel.com> - 1.6
 - Ignore rpmlint error: devel-file-in-non-devel-package
@@ -21,4 +25,3 @@
 
 * Thu Dec 11 2008 Peng Li <peng.li@intel.com> 1.2
 - cleanup the spec file
-
