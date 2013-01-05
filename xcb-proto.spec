@@ -9,7 +9,7 @@ Name:       xcb-proto
 # << macros
 
 Summary:    XCB protocol
-Version:    1.7.1
+Version:    1.8
 Release:    1
 Group:      Development/Libraries
 License:    MIT
