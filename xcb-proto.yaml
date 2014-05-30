@@ -1,6 +1,6 @@
 Name: xcb-proto
 Summary: XCB protocol
-Version: 1.8
+Version: 1.10
 Release: 1
 Group: Development/Libraries
 License: MIT
